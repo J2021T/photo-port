@@ -20,16 +20,12 @@ const Nav = () => {
     return (
         <header data-testid="header" className="flex-row px-1">
             <h2>
-                <a href="/">
-                    <span role="img" aria-label="camera"> 📸</span> Oh Snap!
-                </a>
+                <a data-testid="link" href="/"><span role="img" aria-label="camera"> 📸</span>Oh Snap!</a>
             </h2>
             <nav>
                 <ul className="flex-row">
                     <li className="mx-2">
-                        <a href="#about">
-                            About Me
-                        </a>
+                        <a data-testid="about" href="#about">About me</a>
                     </li>
                     <li className="mx-2">
                         <span>Contact</span>
